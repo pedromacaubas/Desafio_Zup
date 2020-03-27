@@ -66,6 +66,8 @@ testInformarCEP,cep,mensagem,Duration(ms),Duration(ms),Duration(ms),Duration(ms)
 #### Assista ao vídeo da execução da automação
 [![Automação](http://img.youtube.com/vi/XnG45oD1rRI/0.jpg)](http://www.youtube.com/watch?v=XnG45oD1rRI "Video de introdução")
 
+A documentação com os cenários segue em anexo
+
 ###### Autor
 
 Pedro Silva Macaubas
