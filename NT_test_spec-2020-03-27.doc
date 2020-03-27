@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec Netshoes</title>
+<link type="text/css" rel="stylesheet" href="http://localhost/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo" height="53" src="http://localhost/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Especificar Testes</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Projeto de Teste: Netshoes</p></div>
+<div class="summary"><p id="printedby">Impresso por TestLink em 27/03/2020</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">SUMÁRIO</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.BuscaProduto</a></b></p>
+<br/><p style="padding-left: 20px;"><b><a href="#toc_2">2.BuscaCEP</a></b></p>
+<br/><p style="padding-left: 20px;"><b><a href="#toc_3">3.AddProdutoCarrinho</a></b></p>
+<br/><p style="padding-left: 20px;"><b><a href="#toc_4">4.Regressão</a></b></p>
+<p style="padding-left: 30px;"><b><a href="#toc_4_1">4.1.BuscaProduto</a></b></p>
+<p style="padding-left: 60px;"><a href="#toc_tc814">NT-2: BuscaProduto</a></p><p style="padding-left: 60px;"><a href="#toc_tc817">NT-3: BuscaProdutoInexistente</a></p><p style="padding-left: 30px;"><b><a href="#toc_4_2">4.2.BuscaCEP</a></b></p>
+<p style="padding-left: 60px;"><a href="#toc_tc811">NT-1: BuscaCEP</a></p><p style="padding-left: 30px;"><b><a href="#toc_4_3">4.3.AddProdutoCarrinho</a></b></p>
+<p style="padding-left: 60px;"><a href="#toc_tc821">NT-4: AddProdutoCarrinho</a></p></div><a name='toc_1'></a>
+<h1 class='doclevel'>1.Suíte de Teste : BuscaProduto</h1>
+<a name='toc_2'></a>
+<h1 class='doclevel'>2.Suíte de Teste : BuscaCEP</h1>
+<a name='toc_3'></a>
+<h1 class='doclevel'>3.Suíte de Teste : AddProdutoCarrinho</h1>
+<a name='toc_4'></a>
+<h1 class='doclevel'>4.Suíte de Teste : Regressão</h1>
+<a name='toc_4_1'></a>
+<h2 class='doclevel'>4.1.Suíte de Teste : BuscaProduto</h2>
+<a name="toc_tc814"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Caso de Teste NT-2: BuscaProduto&nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Objetivo do Teste::</span><br /><p>Caso de teste visa validar a consulta de um Produto e o retorno do mesmo com sucesso</p>
+</td></tr><tr><td colspan="4"><span class="label">Pré-condições:</span><br /><p><strong>1. Softwares, sistemas e configura&ccedil;&otilde;es necesser&aacute;rias:</strong></p>
+
+<p><strong>1.1</strong>&nbsp;Navegadores <strong>Chrome, Firefox, IE10 e Edge</strong>.</p>
+
+<p>_______________________________________________________________________________________________________________________________________________________</p>
+
+<h4><strong>2. Logar nos sistemas abaixo:</strong></h4>
+
+<p><strong>2.1 Acessar a URL:&nbsp;http://www.netshoes.com.br/.&nbsp;</strong></p>
+
+<p>_______________________________________________________________________________________________________________________________________________________</p>
+
+<p><strong>3. Massa de Teste</strong></p>
+
+<p><strong>3.1 N/A</strong></p>
+
+<p>_______________________________________________________________________________________________________________________________________________________</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td></tr><tr><td width="5">1</td><td><p>Na parte superior da p&aacute;gina no campo de <strong>Busca</strong>, digitar o nome de um produto v&aacute;lido, exemplo:&nbsp;<strong>&#39;mochila&#39;</strong>, em seguida pressionar clicar no &iacute;cone <strong>Lupa</strong> ou pressionar <strong>Enter</strong></p>
+</td><td><p>Sistema exibe:</p>
+
+<p>Resultados de busca para &quot;Mochila&quot; (ou o produto escolhido), logo abaixo uma s&eacute;rie de itens de acordo com a busca realizada</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="3">Médio</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span><td colspan="3">&nbsp;Nenhum<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Palavras-chave:</span></td><td colspan="3">&nbsp;Nenhum<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc817"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Caso de Teste NT-3: BuscaProdutoInexistente&nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Objetivo do Teste::</span><br /><p>Caso de teste visa validar a consulta de um Produto Inv&aacute;lido e o retorno da mensagem&nbsp;<strong>N&Atilde;O FOI POSS&Iacute;VEL ENCONTRAR RESULTADOS PARA O TERMO PROCURADO</strong></p>
+</td></tr><tr><td colspan="4"><span class="label">Pré-condições:</span><br /><p><strong>1. Softwares, sistemas e configura&ccedil;&otilde;es necesser&aacute;rias:</strong></p>
+
+<p><strong>1.1</strong>&nbsp;Navegadores <strong>Chrome, Firefox, IE10 e Edge</strong>.</p>
+
+<p>_______________________________________________________________________________________________________________________________________________________</p>
+
+<h4><strong>2. Logar nos sistemas abaixo:</strong></h4>
+
+<p><strong>2.1 Acessar a URL:&nbsp;http://www.netshoes.com.br/.&nbsp;</strong></p>
+
+<p>_______________________________________________________________________________________________________________________________________________________</p>
+
+<p><strong>3. Massa de Teste</strong></p>
+
+<p><strong>3.1 N/A</strong></p>
+
+<p>_______________________________________________________________________________________________________________________________________________________</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td></tr><tr><td width="5">1</td><td><p>Na parte superior da p&aacute;gina no campo de <strong>Busca</strong>, digitar o nome de um produto inv&aacute;lido, exemplo:&nbsp;<strong>&#39;00000&#39;</strong>, em seguida pressionar clicar no &iacute;cone <strong>Lupa</strong> ou pressionar <strong>Enter</strong></p>
+</td><td><p>Sistema exibe:</p>
+
+<p><strong>N&Atilde;O FOI POSS&Iacute;VEL ENCONTRAR RESULTADOS PARA O TERMO PROCURADO</strong></p>
+</td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="3">Médio</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span><td colspan="3">&nbsp;Nenhum<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Palavras-chave:</span></td><td colspan="3">&nbsp;Nenhum<br/></td></tr>
+</table>
+</div>
+<a name='toc_4_2'></a>
+<h2 class='doclevel'>4.2.Suíte de Teste : BuscaCEP</h2>
+<a name="toc_tc811"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Caso de Teste NT-1: BuscaCEP&nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Objetivo do Teste::</span><br /><p>Caso de teste visa a inser&ccedil;&atilde;o de um CEP e o retorno da mensagem:&nbsp;<strong>CEP xxxxxxxx foi aplicado com sucesso</strong></p>
+</td></tr><tr><td colspan="4"><span class="label">Pré-condições:</span><br /><p><strong>1. Softwares, sistemas e configura&ccedil;&otilde;es necesser&aacute;rias:</strong></p>
+
+<p><strong>1.1</strong>&nbsp;Navegadores <strong>Chrome, Firefox, IE10 e Edge</strong>.</p>
+
+<p>_______________________________________________________________________________________________________________________________________________________</p>
+
+<h4><strong>2. Logar nos sistemas abaixo:</strong></h4>
+
+<p><strong>2.1 Acessar a URL:&nbsp;http://www.netshoes.com.br/.&nbsp;</strong></p>
+
+<p>_______________________________________________________________________________________________________________________________________________________</p>
+
+<p><strong>3. Massa de Teste</strong></p>
+
+<p><strong>3.1 N/A</strong></p>
+
+<p>_______________________________________________________________________________________________________________________________________________________</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td></tr><tr><td width="5">1</td><td><p>Na parte superior da p&aacute;gina no menu suspenso clicar na primeira op&ccedil;&atilde;o <strong>Informe ser CEP</strong></p>
+</td><td><p>Sistema exibe:</p>
+
+<p><strong>Exibe uma janela com o campo CEP para ser inserido</strong></p>
+</td></tr><tr><td width="5">2</td><td><p>Preencher o campo <strong>CEP </strong>com um um <strong>CEP </strong>v&aacute;lido, exemplo: &#39;09002-026&#39;, em seguida clicar no bot&atilde;o <strong>CONSULTAR</strong></p>
+</td><td><p>Sistema exibe a mensagem:</p>
+
+<p><strong>O CEP 09002-026 foi aplicado com sucesso.</strong></p>
+
+<p><strong>CEP&nbsp;</strong><strong>09002-026, estar&aacute; de acordo com o CEP digitado</strong></p>
+</td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="3">Médio</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span><td colspan="3">&nbsp;Nenhum<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Palavras-chave:</span></td><td colspan="3">&nbsp;Nenhum<br/></td></tr>
+</table>
+</div>
+<a name='toc_4_3'></a>
+<h2 class='doclevel'>4.3.Suíte de Teste : AddProdutoCarrinho</h2>
+<a name="toc_tc821"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Caso de Teste NT-4: AddProdutoCarrinho&nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Objetivo do Teste::</span><br /><p>Caso de teste visa validar a inser&ccedil;&atilde;o de um item no <strong>Carrinho de Compras</strong>, sendo que o mesmo deve constar na p&aacute;gina ap&oacute;s a inclus&atilde;o</p>
+</td></tr><tr><td colspan="4"><span class="label">Pré-condições:</span><br /><p><strong>1. Softwares, sistemas e configura&ccedil;&otilde;es necesser&aacute;rias:</strong></p>
+
+<p><strong>1.1</strong>&nbsp;Navegadores <strong>Chrome, Firefox, IE10 e Edge</strong>.</p>
+
+<p>_______________________________________________________________________________________________________________________________________________________</p>
+
+<h4><strong>2. Logar nos sistemas abaixo:</strong></h4>
+
+<p><strong>2.1 Acessar a URL:&nbsp;http://www.netshoes.com.br/.&nbsp;</strong></p>
+
+<p>_______________________________________________________________________________________________________________________________________________________</p>
+
+<p><strong>3. Massa de Teste</strong></p>
+
+<p><strong>3.1 N/A</strong></p>
+
+<p>_______________________________________________________________________________________________________________________________________________________</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td></tr><tr><td width="5">1</td><td><p>Na parte superior da p&aacute;gina no campo de <strong>Busca</strong>, digitar o nome de um produto <strong>v&aacute;lido, </strong>sendo que tem que ser um item especifico, exemplo: <strong>&#39;Mochila Nike Brasilia Academy Team&#39;</strong>, em seguida pressionar clicar no &iacute;cone Lupa ou pressionar Enter</p>
+</td><td><p>Sistema exibe o resultado da busca de acordo com o que foi pesquisado, exemplo:</p>
+
+<p><strong>RESULTADOS DE BUSCA PARA &quot;MOCHILA NIKE BRASILIA ACADEMY TEAM&quot;</strong></p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p>Clicar sobre na <strong>imagem do item pesquisado</strong>, em seguida nan parte inferior ao lado direito clicar no bot&atilde;o <strong>Comprar</strong></p>
+</td><td><p>Sistema exibe a p&aacute;gina carrinho, com o item selecionado, exemplo:</p>
+
+<p><strong>Meu carrinho - logo abaixo o item.</strong></p>
+</td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="3">Médio</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span><td colspan="3">&nbsp;Nenhum<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Palavras-chave:</span></td><td colspan="3">&nbsp;Nenhum<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
